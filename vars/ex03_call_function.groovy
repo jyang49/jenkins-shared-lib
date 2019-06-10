@@ -1,15 +1,10 @@
-def call() {
-
-  def opts = [
-    name: 'what is your name'
-  ]
-
+def call(String name = "Jason") {
   pipeline {
     agent any
     stages { 
       stage('Example') {
         steps {
-          echo "Hi" 
+          log.info(name)
         }
       }
     }
