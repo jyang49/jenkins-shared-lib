@@ -1,3 +1,12 @@
 def call() {
-  echo "study and study more"
+  pipeline {
+    agent any
+    stages { 
+      stage('Example') {
+        steps {
+          echo 'Hello World'
+        }
+      }
+    }
+  }
 }
