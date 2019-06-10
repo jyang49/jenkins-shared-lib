@@ -9,7 +9,7 @@ def call() {
     stages { 
       stage('Example') {
         steps {
-          echo "Hi, ${name}" 
+          echo "Hi" 
         }
       }
     }
