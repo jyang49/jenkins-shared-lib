@@ -4,7 +4,10 @@ def call(String name = "Jason") {
     stages { 
       stage('Example') {
         steps {
-          log.info(name)
+          echo "in ex03_call_function"
+          script {
+            log.info(name)
+          }
         }
       }
     }
