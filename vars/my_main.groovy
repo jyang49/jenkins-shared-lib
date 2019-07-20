@@ -12,6 +12,11 @@ def call() {
           function1('my_main')
         }
       }
+      stage('in main, call function2') {
+        steps {
+          function2('my_main')
+        }
+      }
     }
   }
 }
