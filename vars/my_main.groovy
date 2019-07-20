@@ -9,12 +9,12 @@ def call() {
       }
       stage('in main, call function1') {
         steps {
-          function1('my_main')
+          function_1('my_main')
         }
       }
       stage('in main, call function2') {
         steps {
-          function2('my_main')
+          function_2('my_main')
         }
       }
     }
