@@ -1,3 +1,3 @@
-def call() {
-  println('in function1 call()')
+def call(String caller) {
+  println(caller + ' invokes function1 call()')
 }

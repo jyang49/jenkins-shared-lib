@@ -9,7 +9,7 @@ def call() {
       }
       stage('in main, call function1') {
         steps {
-          function1()
+          function1('my_main')
         }
       }
     }
