@@ -9,7 +9,7 @@ def call(Closure body) {
     stages { 
       stage('Example') {
         steps {
-          echo "Hi, ${name}" 
+          echo "test closure input" 
         }
       }
     }
