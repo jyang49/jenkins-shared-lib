@@ -1,6 +1,7 @@
 def call(Closure body) {
   if (body) {
     println('with closure input')
+    body.call()
   } else {
     println('without closure input')
   }
